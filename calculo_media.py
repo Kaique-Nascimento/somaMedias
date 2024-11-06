@@ -7,12 +7,11 @@ media = 0
 #laço que executará o programa até que o número 0 seja digitado
 while True:
 
-    #ve se o codigo nao dara erro
+    #analisa se o codigo nao dara erro
     try:
-       
         numero = float(input(f"Digite um número: (0 para fazer o calculo da media)  "))
 
-    #se valor digitado nao for um numero
+    #se o valor digitado nao for um numero
     except ValueError:
         print("Digite um número válido!")
 
