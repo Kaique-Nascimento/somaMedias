@@ -43,6 +43,10 @@ while True:
         break
 
     #continua o código se o numero for diferente de 0
+
+    #soma a quantidade de numeros +1
     contador+=1
+
+    #acrescenta o numero digitado na lista
     numerosDigitados.append(numero)
     
